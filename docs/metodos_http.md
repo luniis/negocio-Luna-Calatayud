@@ -38,3 +38,15 @@ Los ejemplos se hicieron con Thunder Client (extensión de VS Code).
 - URL: `https://jsonplaceholder.typicode.com/posts/1`
 - Body: `{ "title": "Solo cambio el titulo" }`
 - Código de estado: `200 OK`
+
+
+## DELETE
+
+**Para qué sirve:** eliminar un recurso.
+
+**Cómo se usa:** se envía a la URL del recurso que se quiere borrar. No lleva body.
+
+**Ejemplo:**
+- URL: `https://jsonplaceholder.typicode.com/posts/1`
+- Body: ninguno
+- Código de estado: `200 OK`
