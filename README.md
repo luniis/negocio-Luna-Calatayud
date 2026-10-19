@@ -8,7 +8,7 @@
 - **Fecha:** 18/10/2026
 
 ## Descripción
-Práctica 1 de Programación Web III: Git y GitHub, base de datos SQL, métodos HTTP y buscador de pokémon con fetch a la PokeAPI.
+Sistema de negocio con base de datos SQL, métodos HTTP y buscador de pokémon.
 
 ## Estructura
 - `db/`: schema.sql, seed.sql y consultas.sql
