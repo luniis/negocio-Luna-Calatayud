@@ -14,6 +14,14 @@ async function buscarPokemon() {
 
   try {
     const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${nombre}`);
+    if (!response.ok) {
+      if (response.status === 404) {
+        resultado.innerHTML = `<p class="error">El pokémon "${nombre}" no existe.</p>`;
+      } else {
+        resultado.innerHTML = `<p class="error">Error en la petición (código ${response.status}).</p>`;
+      }
+      return;
+    }
     const data = await response.json();
 
     const tipos = data.types.map(t => t.type.name).join(', ');
