@@ -50,3 +50,12 @@ Los ejemplos se hicieron con Thunder Client (extensión de VS Code).
 - URL: `https://jsonplaceholder.typicode.com/posts/1`
 - Body: ninguno
 - Código de estado: `200 OK`
+
+
+## Diferencia entre PUT y PATCH
+
+PUT  lo reemplaza por completo: hay que mandar todos los atributos, y si
+falta alguno, ese dato se pierde. PATCH solo los modifica y deja el resto igual. 
+
+> **Nota:** JSONPlaceholder simula los cambios pero no los guarda de verdad,
+> por eso un GET posterior no muestra las modificaciones.
