@@ -14,3 +14,15 @@ Los ejemplos se hicieron con Thunder Client (extensión de VS Code).
 - URL: `https://jsonplaceholder.typicode.com/posts/1`
 - Body: ninguno
 - Código de estado: `200 OK`
+
+
+## POST
+
+**Para qué sirve:** crear un recurso nuevo.
+
+**Cómo se usa:** se envía a la URL de la colección, con el nuevo recurso en el body en formato JSON.
+
+**Ejemplo:**
+- URL: `https://jsonplaceholder.typicode.com/posts`
+- Body: `{ "title": "Mi primer post", "body": "Contenido de prueba", "userId": 1 }`
+- Código de estado: `201 Created`
