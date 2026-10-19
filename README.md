@@ -15,3 +15,9 @@ Sistema de negocio con base de datos SQL, métodos HTTP y buscador de pokémon.
 - `docs/`: metodos_http.md y capturas de la app
 - `frontend/`: index.html y app.js
 - `pokeapi/`: carpeta del proyecto PokeAPI
+
+
+## Conflicto controlado
+1. Dos ramas (feature/09-conflicto-a y feature/10-conflicto-b) editaron la misma línea del README.
+2. Al mergear la segunda, Git no pudo decidir cuál conservar y marcó el conflicto con <<<<<<<, ======= y >>>>>>>.
+3. Lo resolví a mano, dejando la versión final de la línea, y confirmé con un commit de merge.
